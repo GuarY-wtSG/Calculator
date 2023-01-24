@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calStyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body>
+    <input type='text'id="answer" name="abvScreen" placeholder="0" readonly>
+    <div>
+        <input type="text" id="newInput" name='screen' placeholder="0" readonly><br />
+    </div>
+    <table id="buttons">
+        <tr>
+            <td><button id="space">%</button></td>
+            <td><button id="space">(</button></td>
+            <td><button id="space">)</button></td>
+            <td><button id="space">&divide</button></td>
+        </tr>
+        <tr>
+            <td><button id="number" name="one" value="1">1</button></td>
+            <td><button id="number" value="2">2</button></td>
+            <td><button id="number" value="3">3</button></td>
+            <td><button id="space">x</button></td>
+        </tr>
+        <tr>
+            <td><button id="number">4</button></td>
+            <td><button id="number">5</button></td>
+            <td><button id="number">6</button></td>
+            <td><button id="space">-</button></td>
+        </tr>
+        <tr>
+            <td><button id="number">7</button></td>
+            <td><button id="number">8</button></td>
+            <td><button id="number">9</button></td>
+            <td><button id="space">+</button></td>
+        </tr>
+        <tr>
+            <td><button id="clear">Clr</button></td>
+            <td><button id="number">0</button></td>
+            <td><button id="point">.</button></td>
+            <td><button id="equal">=</button></td>
+        </tr>
+    </table>
+</body>
+<script src="mathOperators.js"></script>
+
+</html>
